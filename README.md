@@ -172,21 +172,6 @@ Run everything in a clean isolated container:
 docker build -t autoheal-ai .
 docker run --rm -v $(pwd)/artifacts:/app/artifacts autoheal-ai
 ```
-
----
-
-## 💼 Resume Feature: How to Showcase This Project
-
-Add this directly to your resume under **Projects**:
-
-> **AutoHeal-AI – Autonomous Self-Healing Test Automation & Root Cause Analysis Platform**  
-> *Tech Stack: Python, Playwright, FastAPI, Docker, Pydantic, GitHub Actions, Pytest*
-> * Architected an intelligent end-to-end test automation framework with dynamic DOM self-healing, reducing test suite flakiness and maintenance overhead from broken locators by over **70%**.
-> * Engineered a multi-strategy heuristic & semantic element resolver utilizing ARIA attributes, DOM proximity, fuzzy string matching, and accessibility roles to repair selectors at runtime.
-> * Implemented an automated **Root Cause Analysis (RCA)** engine that correlates console error logs, network HAR requests (4xx/5xx status codes), and DOM states to automatically classify failures into application bugs vs environment defects.
-> * Built automated Git patch generation (`.diff`), enabling engineering teams to review and merge suggested locator fixes directly into version control.
-> * Configured containerized execution via Docker and automated CI/CD quality gates using GitHub Actions with HTML telemetry reporting.
-
 ---
 
 ## 📄 License
